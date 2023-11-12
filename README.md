@@ -20,7 +20,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/vittfiles/recipe-page-vittfiles/blob/main/screenshot.jpeg)
+![screenshot](https://github.com/vittfiles/stripe-api-store/blob/main/screenshot.jpeg)
 
 A responsive store made with: Html, CSS, JavaScript and using the Stripe api.
 

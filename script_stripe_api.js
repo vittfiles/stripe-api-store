@@ -79,9 +79,9 @@ function createColors(col){
 
 d.addEventListener("click",e => {
     if(e.target.matches(".card *")){
-        window.location.replace("https://github.com/vittfiles/stripe-api-store/product.html?product="+e.target.closest(".card").getAttribute("id-product"));
+        window.location.replace("https://vittfiles.github.io/stripe-api-store/product.html?product="+e.target.closest(".card").getAttribute("id-product"));
     }else if(e.target.matches(".card")){
-        window.location.replace("https://github.com/vittfiles/stripe-api-store/product.html?product="+e.target.getAttribute("id-product"));
+        window.location.replace("https://vittfiles.github.io/stripe-api-store/product.html?product="+e.target.getAttribute("id-product"));
     }
     if(e.target.matches("#cart")){
         d.querySelector(".cart-side").classList.toggle("show-cart");

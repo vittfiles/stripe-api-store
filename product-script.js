@@ -195,6 +195,10 @@ d.addEventListener("click",e => {
             
             document.querySelector("#cart").classList.remove("anim-cart");
             document.querySelector("#cart").classList.add("anim-cart");
+            window.scroll({
+                top: 0,
+                behavior: "smooth",
+              });
             setTimeout(function(){
                 document.querySelector("#cart").classList.remove("anim-cart");
             },1500);
